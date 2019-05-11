@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                                   xmlns:tools="http://schemas.android.com/tools" android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <TextView
+            android:layout_width="217dp"
+            android:layout_height="47dp"
+            android:text="tambah kontak"
+            android:textSize="30dp"
+            tools:layout_editor_absoluteY="27dp"
+            tools:layout_editor_absoluteX="107dp"/>
+    <EditText
+            android:layout_width="409dp"
+            android:layout_height="53dp"
+            android:inputType="textPersonName"
+            android:text="Name"
+            android:ems="10"
+            tools:layout_editor_absoluteY="120dp" tools:layout_editor_absoluteX="2dp" android:id="@+id/editText"/>
+    <EditText
+            android:layout_width="410dp"
+            android:layout_height="53dp"
+            android:text="No.Telp"
+            android:inputType="phone"
+            android:ems="10"
+            tools:layout_editor_absoluteY="271dp" tools:layout_editor_absoluteX="0dp" android:id="@+id/editText2"/>
+    <EditText
+            android:layout_width="410dp"
+            android:layout_height="45dp"
+            android:text="Email"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            tools:layout_editor_absoluteY="333dp" tools:layout_editor_absoluteX="0dp" android:id="@+id/editText3"/>
+    <EditText
+            android:layout_width="410dp"
+            android:layout_height="83dp"
+            android:text="Alamat"
+            android:inputType="textPostalAddress"
+            android:ems="10"
+            tools:layout_editor_absoluteY="405dp" tools:layout_editor_absoluteX="0dp" android:id="@+id/editText5"/>
+    <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" tools:layout_editor_absoluteY="246dp"
+            android:entries="@array/Jenis_Kelamin"
+            tools:layot_editor_absoluteY="8dp" android:id="@+id/spinnerkelamin"
+            tools:layout_editor_absoluteY="191dp" tools:layout_editor_absoluteX="34dp"></Spinner>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
